@@ -7,7 +7,7 @@ import 'ant-design-vue/dist/antd.css'
 import { createFromIconfontCN } from '@ant-design/icons-vue';
 
 const IconFont = createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/font_3186885_0w1zd3odi83.js',
+  scriptUrl: 'https://at.alicdn.com/t/font_3186885_0w1zd3odi83.js',
 });
 
 createApp(App)

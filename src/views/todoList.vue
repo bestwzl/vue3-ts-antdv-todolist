@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrapper">
     <div class="page-header-wrapper">
-      土豆列表
+      土豆列表<HomeOutlined />
     </div>
     <div class="content-wrapper">
 
@@ -46,7 +46,6 @@ import { ref, onMounted, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import TodoItem from '@/components/todoItem.vue'
 import { Modal } from 'ant-design-vue'
-
 import Sortable from 'sortablejs'
 
 const router = useRouter()

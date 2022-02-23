@@ -8,10 +8,10 @@
     </div>
     <div class="item-right-wrapper">
       <p class="handle-move-box handleDrag">
-        <icon-font type="icon-drag" />
+        <drag-outlined />
       </p>
       <p class="handle-btn-box" @click="handleDelete">
-        <icon-font type="icon-close" />
+        <close-outlined />
       </p>
     </div>
   </div>
@@ -21,6 +21,11 @@
 <script lang="ts" setup>
 import { ref, defineProps, defineEmits } from 'vue';
 import { Modal } from 'ant-design-vue';
+
+import {
+  DragOutlined,
+  CloseOutlined
+} from '@ant-design/icons-vue';
 
 let props = defineProps({
   defaultValue: {
